@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Meu Primeiro Script</title>
+    <style>
+        body{
+            background-color: rgba(0, 255, 255, 0.233);
+            font: normal 20pt Arial; /*Comentário em CSS*/
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, Mundo!</h1>
+    <p>Já me livrei da maldição!</p> <!--Comentário HTML-->
+    <!--Iniciar o script do javascript antes de finalizar o body-->
+    <script>
+        var n1 = Number.parseInt(window.prompt('Digite um número: ')) //já salva como string
+        var n2 = Number.parseFloat(window.prompt('Digite outro numero: '))
+        var s = n1 + n2
+        window.alert('A soma dos valores é' + s)
+        // (string + string) + para concatenação
+        // (number + number) + serve para a adição também
+    </script>
+</body>
+</html>
