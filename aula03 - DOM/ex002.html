@@ -18,10 +18,25 @@
     <p>Aqui vai o resultado</p>
     <p>Aprendendo a usar o <strong> DOM </strong>em JavaScript</p>
     <div>Clique em mim</div>
+    <div id="msg">Clique em mim</div>
 
     <script>
-        window.document.write('Olá, Mundo!')
-        window.document.write(window.document.URL)
+        var corpo = window.document.body
+        var p1 = window.document.getElementsByTagName('p')[0]
+        var d = window.document.getElementById('msg')
+        //var d = winndow.document.getElementsByTagName('msg')
+
+
+        p1.style.color = 'blue'
+        //corpo.style.background = 'black'
+        d.style.background = 'green'
+        d.innerText = 'Estou aguardando...'
+        window.document.write('Está escrito assim: ' + p1.innerText)
+
+        document.write(p1.innerHTML)
+        //vem com a formatação innerHTML
+
+
 
     </script>
     
