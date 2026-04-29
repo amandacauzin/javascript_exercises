@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALFÂNDEGA</title>
+</head>
+<body>
+    <h1>Vamos verificar seu País de origem!</h1>
+    Qual seu país de origem? <input type="text" name="pais" id="pais">! <!--Define caixa de texto para digitar o país-->
+    <input type="button" value="Consultar" onclick="verif()"> <!--Define o botão que executa a função-->
+    <div class="resp"> <!--div para adicionar a resposta uma linha abaixo-->
+
+    </div>
+    
+    <script>
+        function verif(){
+            var p = window.document.getElementById('pais'); //conecta a caixa de texto com a variável
+            var resp = window.document.querySelector('div.resp');
+            var pais = p.value //pega o texto escrito e armazena na variável
+            resp.innerHTML = `<p>Se país de origem é ${pais}</p>`
+
+            if (pais.toUpperCase() == "BRASIL"){
+                resp.innerHTML += `<p>Você é Brasileiro</p>`
+
+            } else{
+                resp.innerHTML += `<p>Você é Estrangeiro!!!</p>`
+            }
+            resp.innerHTML += `<p>Obrigado pela informação</p>`
+        }
+    </script>
+</body>
+</html>
