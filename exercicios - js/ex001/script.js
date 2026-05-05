@@ -1,9 +1,9 @@
 function carregar(){
-    var msg = window.document.getElementById('msg')
-    var img = window.document.getElementById('imagem')
-    var data = new Date()
-    var hora = data.getHours()
-    msg.innerHTML = `Agora são ${hora} horas.`
+    var msg = window.document.getElementById('msg')//pega a variavel do id msg
+    var img = window.document.getElementById('imagem')//pega a variavel do id imagem
+    var data = new Date() //variavel data
+    var hora = data.getHours() //variavel hora
+    msg.innerHTML = `Agora são ${hora} horas.` //escreve este texto
 
     if (hora >= 0 && hora < 12){
         img.src = "imagem-manha.jpg"
