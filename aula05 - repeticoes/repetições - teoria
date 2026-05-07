@@ -13,6 +13,7 @@ function comerPizza(){
 
 LAÇO COMEÇA TESTANDO UMA CONDIÇÃO E REPETINDO ENQUANTO FOI VERDADEIRA
 COMO ESCREVER:
+//estrutura de repetição fazendo o teste lógico no inicio
 
 while(condição){
 
@@ -24,3 +25,11 @@ function comerPizza(){
         comerFatia()
     }
 }
+
+//estrutura de prmeiro executar o bloco e depois fazer o teste
+
+do{
+    BLOCO
+} while(condição)
+
+exemplo 2: 
