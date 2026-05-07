@@ -26,10 +26,27 @@ function comerPizza(){
     }
 }
 
-//estrutura de prmeiro executar o bloco e depois fazer o teste
+//estrutura de primeiro executar o bloco e depois fazer o teste
 
 do{
     BLOCO
 } while(condição)
 
-exemplo 2: 
+exemplo2: var c = 1
+do{
+    console.log('Oi! Tudo bem?')
+    console.log(`Passo ${c}`)
+    c++
+} while (c <= 6)
+
+//estrutura com inicio, teste e incremento
+for (inicio; teste; incremento){
+    bloco
+}
+
+exemplo3: 
+for (var c=1; c <=6; c++){
+
+}
+
+(() => {})(); -> crie essa função e execute ela na mesma hora
