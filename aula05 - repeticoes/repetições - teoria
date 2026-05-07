@@ -1,0 +1,26 @@
+//Uma função para comer pizza inteira, de 8 pedaços:
+
+function comerPizza(){
+    comerFatia()
+    comerFatia()
+    comerFatia()
+    comerFatia()
+    comerFatia()
+    comerFatia()
+    comerFatia()
+    comerFatia()
+}
+
+LAÇO COMEÇA TESTANDO UMA CONDIÇÃO E REPETINDO ENQUANTO FOI VERDADEIRA
+COMO ESCREVER:
+
+while(condição){
+
+}
+
+exemplo 1:
+function comerPizza(){
+    while(temFatia()){
+        comerFatia()
+    }
+}
