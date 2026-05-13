@@ -1,0 +1,52 @@
+//Uma função para comer pizza inteira, de 8 pedaços:
+
+function comerPizza(){
+    comerFatia()
+    comerFatia()
+    comerFatia()
+    comerFatia()
+    comerFatia()
+    comerFatia()
+    comerFatia()
+    comerFatia()
+}
+
+LAÇO COMEÇA TESTANDO UMA CONDIÇÃO E REPETINDO ENQUANTO FOI VERDADEIRA
+COMO ESCREVER:
+//estrutura de repetição fazendo o teste lógico no inicio
+
+while(condição){
+
+}
+
+exemplo 1:
+function comerPizza(){
+    while(temFatia()){
+        comerFatia()
+    }
+}
+
+//estrutura de primeiro executar o bloco e depois fazer o teste
+
+do{
+    BLOCO
+} while(condição)
+
+exemplo2: var c = 1
+do{
+    console.log('Oi! Tudo bem?')
+    console.log(`Passo ${c}`)
+    c++
+} while (c <= 6)
+
+//estrutura com inicio, teste e incremento
+for (inicio; teste; incremento){
+    bloco
+}
+
+exemplo3: 
+for (var c=1; c <=6; c++){
+
+}
+
+(() => {})(); -> crie essa função e execute ela na mesma hora
