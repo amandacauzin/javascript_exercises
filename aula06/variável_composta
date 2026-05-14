@@ -1,0 +1,12 @@
+Variáveis simples só conseguem guardar um valor por vez.
+Variáveis compostas devem ser capazes de armazenar vários tipos de valores.
+
+//função para estacionar carros em vaga de carros
+vaga a = ['uno','corsa','civic']
+== vaga a = [0,1,2]
+a = vetor 
+indice = 0,1,2
+elemento = espaços a serem ocupados
+
+exemplo 1:
+let num = [5,8,4]
