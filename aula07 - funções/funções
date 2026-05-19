@@ -1,0 +1,19 @@
+Definição de funções:
+Ações executadas assim que são chamadas ou em decorrência de algum evento.
+Uma função pode receber parâmetros e retornar um resultado.
+
+function ação(parâmetro){
+    ação
+    return resultado
+}
+ação(5) //chamada
+//parâmetro real vale 5
+
+function parimp(n){ //n=parâmetro
+    if (n%2==0){
+        return 'par'
+    }else{
+        returno 'impar'
+    }
+}
+let res = parimp(11) //chamada
